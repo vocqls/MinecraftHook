@@ -14,7 +14,7 @@ void init() {
         MessageBox(NULL, "Invalid PID", "HookMc", MB_ICONERROR);
         exit(-1);
     }
-    HWND window = FindWindow(NULL, "Minecraft 1.8.9");
+    HWND window = FindWindow(NULL, "javaw");
     if (!window) {
         MessageBox(NULL, "Minecraft not found.", "HookMc", MB_ICONERROR);
     }
